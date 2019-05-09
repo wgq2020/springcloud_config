@@ -1,6 +1,11 @@
 spring:
   application:
     name: tree-consumer
+  redis:
+    host: 192.168.172.128
+    port: 6379
+    timeout: 3000
+    password: 123456
 eureka :
   client :
     serviceUrl :
